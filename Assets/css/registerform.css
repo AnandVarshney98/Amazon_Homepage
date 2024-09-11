@@ -1,0 +1,68 @@
+h1{
+    color: blue;
+    text-transform: capitalize;
+    text-decoration: underline;
+    font-size: 25px;
+}
+pre{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    /* color:; */
+}
+header{
+    text-align: center;
+}
+#first{
+    background-color: cyan;
+    height: 40;
+    font-size: 25px;
+}
+#one{
+    font-weight:bold;
+}
+table{
+    border: 2px solid cyan;
+    border-radius: 5px;
+}
+body{
+    width: 650px;
+    height: 570px;
+    border: 1px groove lightgrey;
+    border-top-left-radius: 10px;
+    background-color: lightgrey;
+    
+}
+form{
+    padding-left: 150px;
+    color: white;
+    line-height: 50px;
+}
+html{
+    border: 1px solid white;
+    background-color: rgb(196, 137, 252);
+    padding-left: 590px;
+    padding-top: 30px;
+    background-image: url("backform1.png");
+}
+#logo{
+    color: red;
+    padding-left: 0;
+    font-size: 35px;
+}
+
+#logo:hover{
+    font-size: 40px;
+    
+}
+
+form:hover{
+    color: black;
+}
+
+button:hover{
+    background-color: red;
+}
+
+button:active{
+    background-color: blue;
+}

@@ -1,0 +1,351 @@
+html{
+    font-size: 100%;
+    text-size-adjust: 100%;
+    display: block;
+    height: 635px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+head{
+    display: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+    padding: 0px;
+    margin: 0px;
+    background: #fff;
+    min-height: 100%;
+    display: block;
+    height: 612px;
+
+}
+
+#a-page{
+    display: block;
+    height: 612px;
+}
+
+.a-section{
+    height: 612px;
+    margin-bottom: 22px;
+    padding: 14px 18px;
+}
+
+.navbar{
+    height: 40px;
+    margin-bottom: 0px;
+}
+
+.nav-logo{
+    height: 40px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.logo{
+    background-image: url("amazonsignin_logo.png");
+    /* background-position: -5px -130px; */
+    height: 40px;
+    width: 103px;
+    /* background-size: 400px 750px; */
+    background-repeat: no-repeat;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.center-section{
+    width: 700px;
+    height: 524px;
+    margin: auto;
+}
+
+.main-section{
+    height: 524px;
+    margin-top: 10px;
+}
+
+.mainin-section{
+        width: 350px;
+        height: 524px;
+        margin: auto;
+        /* border: 0.2px solid rgb(178, 176, 176); */
+        border-radius: 8px;
+        margin-bottom: 14px;
+}
+
+.inner-section{
+    width: 350px;
+    height: 524px;
+    margin: auto;
+    /* margin-bottom: 22px; */
+}
+
+form{
+    height: 524px;
+    margin-bottom: 14px;
+}
+
+.a-box{
+    height: 524px;
+    border-radius: 8px;
+    margin-bottom: 26px;
+    display: block;
+    border: 1px #ddd solid;
+    background-color: #fff;
+}
+
+.inner-box{
+    width: 348.5px;
+    height: 524px;
+    position: relative;
+    padding: 14px 18px;
+}
+
+.heading{
+    margin-bottom: 10px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 1.2;
+    text-rendering: optimizeLegibility;
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+.name-row{
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+label{
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+
+input{
+    transition: all .1s linear;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 19px;
+    color: #111;
+    margin: 0;
+}
+
+.namefield{
+    width: 100%;
+    margin-right: 0;
+    color: #0F1111;
+    background-color: #fff;
+    height: 31px;
+    padding: 3px 7px;
+    line-height: normal;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 1px 0 rgba(0,0,0,.07) inset;
+    outline: 0;
+}
+
+.mobile-row{
+    height: 52px;
+    margin-bottom: 14px;
+}
+
+.m-row{
+    width: 100%;
+}
+
+.inner-mrow{
+    margin-top: 6px;
+    position: relative;
+    height: 35px;
+}
+
+.inner-column{
+    position: relative;
+    padding: 0;
+}
+
+.left-column{
+    position: relative;
+    overflow: visible;
+    zoom: 1;
+    min-height: 1px;
+}
+
+.password-row{
+    height: 73px; 
+    margin-bottom: 15px;  
+}
+
+.inner-row{
+    margin-bottom: 14px;
+    width: 100%;
+    height: 73px;
+}
+
+.password-text{
+    height: 15px;
+    margin-top: 6px;
+}
+
+.inner-text{
+    height: 15px;
+    padding-left: 16px;
+    text-align: left;
+    display: flex;
+}
+
+.fa-solid{
+    text-align: left;
+    font-size: 11px;
+    font-style: normal;
+    text-decoration: none;
+    justify-content: flex-start;
+    align-self: center;
+    margin-left: -15px;
+    color: #0066c0;
+    font-style: italic;
+    /* margin-right: 5px; */
+    
+}
+
+.pass-content{
+    padding-left: 5px;
+    align-self: flex-start;
+    font-size: 12px;
+    line-height: 15px;
+    color: #2b2b2b;
+
+}
+
+.mobile-message{
+    padding-top: 6px;
+    margin-top: 0;
+    margin-bottom: 22px;
+    height: 63px;
+    font-weight: 500;
+}
+
+.check{
+    width: 100%;
+    height: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgba( 213, 217, 217, .5);
+    background-color: #FFD814;
+    border-color: #FCD200;
+    color: #111;
+    border-style: solid;
+    border-width: .5px;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.link-section{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+hr{
+    background-color: transparent;
+    display: block;
+    height: 1px;
+    border-top: 1px solid #e7e7e7;
+    line-height: 19px;
+    margin-top: 0;
+    margin-bottom: 14px;
+
+}
+
+.divider-section{
+    height: 44px;
+}
+
+.divider-row{
+    width: 100%;
+    height: 19px;
+}
+
+.link{
+    text-decoration: none;
+    color: #0066c0;
+}
+
+#icon{
+    /* color: rgb(152, 151, 151); */
+    text-decoration: none;
+    font-size: 8px;
+    margin-left: 1px;
+    /* margin-bottom: 2px; */
+    font-style: normal;
+}
+
+.condition-text{
+    height: 36px;
+    margin-top: 4px;
+    margin-bottom: 14px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.section-footer{
+    height: 72px;
+    margin-top: 26px;
+
+}
+
+.divider-sections{
+    height: 44px;
+    margin-bottom: -18px;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, .14), rgba(0, 0, 0, .03) 3px, transparent);
+    zoom: 1;
+}
+
+.divider-top{
+    font-size: 11px;
+    line-height: 1.465;
+    height: 16.5px;
+    margin-bottom: 10px;
+    text-align: center;
+    }
+
+.footer-separator{
+    display: inline-block;
+    text-align: center;    
+    width: 20px;
+    font-size: 11px;
+    line-height: 1.465;
+    margin-left: 240px;
+    margin-right: 240px;
+
+}
+
+.footer-separator-b{
+    margin: 9px;
+}
+
+.normal-link{
+    text-decoration: none;
+    color: #0066c0;
+    font-size: 11px;
+}
+
+.divider-bottom{
+    height: 19px;
+    text-align: center;
+    margin-bottom: 0;
+    font-size: 11px;
+    color: #555;
+}
